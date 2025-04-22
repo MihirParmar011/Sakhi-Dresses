@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakhi Dresses - Review Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo-container">
+        <img src="Sakhi.png" alt="Sakhi Dresses Logo" class="logo">
+      </div>
+      <h1>Sakhi Dresses</h1>
+      <p class="owner">Owned by: <span>Dineshbhai Parmar</span></p>
+      <div class="contact">
+        <a href="tel:9924573140" class="contact-btn"><i class="fas fa-phone-alt"></i>+91 99245 73140</a>
+        <a href="https://g.co/kgs/4Jdr2iQ" target="_blank" class="contact-btn"><i class="fas fa-map-marker-alt"></i> Shop Location</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="about-section card">
+        <h3><i class="fas fa-info-circle"></i> About Sakhi Dresses</h3>
+        <p>Sakhi Dresses is your one-stop fashion destination offering a wide range of ethnic and contemporary wear. We specialize in dress materials, kurtis, lehengas, Punjabi dresses, ready-made outfits, dress pairs, and much more. Our collection features the latest trends with premium quality fabrics and exquisite designs to make every woman look her best.</p>
+      </div>
+
+      <div class="features">
+        <div class="feature card animate__animated animate__fadeInUp">
+          <div class="feature-icon">
+            <i class="fas fa-tshirt"></i>
+          </div>
+          <h3>Wide Collection</h3>
+          <p>Extensive range of ethnic and contemporary outfits</p>
+        </div>
+        <div class="feature card animate__animated animate__fadeInUp animate__delay-1s">
+          <div class="feature-icon">
+            <i class="fas fa-rupee-sign"></i>
+          </div>
+          <h3>Affordable Prices</h3>
+          <p>Quality fashion at budget-friendly prices</p>
+        </div>
+        <div class="feature card animate__animated animate__fadeInUp animate__delay-2s">
+          <div class="feature-icon">
+            <i class="fas fa-gem"></i>
+          </div>
+          <h3>Premium Quality</h3>
+          <p>Carefully selected fabrics and perfect stitching</p>
+        </div>
+      </div>
+
+      <div class="hours-section card">
+        <h3><i class="fas fa-clock"></i> Business Hours</h3>
+        <ul>
+          <li><span>Monday - Saturday:</span> <span>10:00 AM - 8:00 PM</span></li>
+          <li><span>Sunday:</span> <span>11:00 AM - 6:00 PM</span></li>
+        </ul>
+      </div>
+
+      <div class="review-box card">
+        <h2><i class="fas fa-star"></i> Leave Us a Review</h2>
+        <p class="subtext">We value your feedback! Share your shopping experience at Sakhi Dresses to help us improve and serve you better.</p>
+
+        <div class="review-container">
+          <textarea id="reviewBox" readonly></textarea>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button onclick="copyReview()" class="btn-primary"><i class="far fa-copy"></i> Copy Review</button>
+          <button onclick="openShop()" class="btn-secondary"><i class="fab fa-google"></i> Add Review on Maps</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
