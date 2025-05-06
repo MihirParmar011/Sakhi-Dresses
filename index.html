@@ -71,6 +71,39 @@
         </p>
       </div>
       
+      <!-- New Collection Section -->
+      <div class="details-section">
+        <h3 class="section-title">
+          <i class="fas fa-tshirt"></i> Our Collections
+        </h3>
+        <div class="collections-grid">
+          <div class="collection-item">
+            <i class="fas fa-vest"></i>
+            <span>Traditional Lehengas</span>
+          </div>
+          <div class="collection-item">
+            <i class="fas fa-kaaba"></i>
+            <span>Punjabi Suits</span>
+          </div>
+          <div class="collection-item">
+            <i class="fas fa-cut"></i>
+            <span>Dress Materials</span>
+          </div>
+          <div class="collection-item">
+            <i class="fas fa-female"></i>
+            <span>Kurtis & Tops</span>
+          </div>
+          <div class="collection-item">
+            <i class="fas fa-ring"></i>
+            <span>Bridal Wear</span>
+          </div>
+          <div class="collection-item">
+            <i class="fas fa-mitten"></i>
+            <span>Winter Collection</span>
+          </div>
+        </div>
+      </div>
+      
       <div class="details-section">
         <h3 class="section-title">
           <i class="fas fa-clock"></i> Hours
@@ -115,6 +148,18 @@
               <i class="fas fa-parking"></i>
             </div>
             <span>Parking Available</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-exchange-alt"></i>
+            </div>
+            <span>Easy Exchange</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-ruler-combined"></i>
+            </div>
+            <span>Custom Tailoring</span>
           </div>
         </div>
       </div>
@@ -179,23 +224,25 @@
           <i class="fas fa-edit"></i> Add Review
         </h3>
         <div class="rating-input">
-          <i class="fas fa-star" data-rating="1"></i>
-          <i class="fas fa-star" data-rating="2"></i>
-          <i class="fas fa-star" data-rating="3"></i>
-          <i class="fas fa-star" data-rating="4"></i>
-          <i class="fas fa-star" data-rating="5"></i>
+          <i class="far fa-star" data-rating="1"></i>
+          <i class="far fa-star" data-rating="2"></i>
+          <i class="far fa-star" data-rating="3"></i>
+          <i class="far fa-star" data-rating="4"></i>
+          <i class="far fa-star" data-rating="5"></i>
         </div>
         <textarea id="reviewBox" placeholder="Share details of your experience..."></textarea>
         <div class="btn-group">
-          <button class="copy-btn" id="copyBtn">
-            <i class="far fa-copy"></i> Copy Review
+          <button class="generate-btn" id="generateBtn">
+            <i class="fas fa-magic"></i> Generate Review
           </button>
           <button class="review-btn" id="reviewBtn">
-            <i class="fab fa-google"></i> Add Review on Maps
+            <i class="fab fa-google"></i> Submit to Google
           </button>
         </div>
+        <div id="reviewStatus" class="status-message"></div>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
